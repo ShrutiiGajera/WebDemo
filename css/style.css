@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.card-container {
+    width: 1248px;
+    height: 512px;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 24px;
+    background: #C1DCDC;
+    padding-top: 50px;
+}
+
+h1 {
+    margin: 48px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+h3 {
+    margin: 48px;
+    color: var(--Color-2, #1E1E1E);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h6 {
+    margin: 48px;
+    color: var(--Color-2, #1E1E1E);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.line {
+    border-left: 1px solid #000;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.form-control {
+    margin: 48px;
+    width: 449px;
+    height: 64px;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+p {
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
