@@ -26,6 +26,7 @@ h1 {
     font-style: normal;
     font-weight: 800;
     line-height: 64px;
+    animation: fadeIn 2s;
 }
 
 h3 {
@@ -36,6 +37,7 @@ h3 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    animation: roate 3s;
 }
 
 h6 {
@@ -75,7 +77,7 @@ p {
 }
 
 h5 {
-    color: var(--Color-2, #1E1E1E);
+    color: var(--Color-2, #000000);
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -83,11 +85,87 @@ h5 {
     line-height: normal;
 }
 
-h6 {
-    color: rgba(30, 30, 30, 0.50);
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.card {
+    border: none;
+    width: 1248px;
+    height: 512px;
+    flex-shrink: 0;
+    margin: auto;
+    padding-top: 23px;
+}
+
+/* .card{
+    box-shadow: 20px 3px 5px 5px #000;
+    filter: drop-shadow(40px 10px 10px #20002c);
+
+} */
+.btnSee {
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 120px;
+    height: 30px;
+}
+
+.btnSee:hover {
+
+    background-color: #20002c;
+    color: #ffffff;
+
+}
+
+#arrow {
+    animation: roate 2s;
+}
+
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes roate {
+
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#ab {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#p {
+    text-align: center;
+}
+
+.card-group {
+    margin: 96px;
+    text-align: center;
+}
+
+#imgee {
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.card-categories {
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+    background: #C1DCDC;
+    padding-top: 50px;
 }
